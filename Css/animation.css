@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background: url(../imgs/IMG-20200503-WA0174.jpg) no-repeat fixed;
+    background-size: cover;
+}
+.d1
+{
+    height: 90px;
+    background-color:#6363657a;
+    margin: -30px;
+}
+h6
+{
+    
+    text-indent: 100px;
+    font-size: 20px; 
+    color: white;
+    padding-top: 40px;
+    display: inline-block;
+    animation: big 0.8s ease-in-out 0.5s infinite normal none running
+}
+
+.l1
+{
+    float: right;
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 30px;
+    word-spacing: 5px;
+}
+.d1 li,h6
+{
+   display: inline-block;
+}
+
+.d2{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 50px;
+
+}
+.s4
+{
+    color: #229f8f;
+}
+.s5
+{
+    font-size:25px;
+    padding-top: 100px;
+}
+.a1,.a2
+{
+    color: white;
+    text-decoration: none;
+    padding-right: 60px;
+   
+}
+h6
+{
+    padding-top: 0px;
+}
+.a2
+{
+    color: #15d4bc;
+    font-size: 13px;
+}
+.i1,.i2
+{
+    font-size: 15px;
+    background-color: white;
+    padding: 8px 35px;
+    border: 0px;
+    color: black;
+    text-decoration: none;
+    transition-property: background,color;
+    transition-duration: 0.5s;
+}
+.d3
+{
+    text-align: center;
+}
+.i1
+{
+    margin-right: 3px;
+   
+}
+.i2
+{
+    padding-right: 30px;
+    margin-right: 45px;
+}
+.i1:hover
+{
+    background-color: #229f8f;
+    color: white;
+}
+.i2:hover
+{
+    background-color: #229f8f;
+    color: white;
+}
+@keyframes big
+{
+    0%,100%{
+        transform: scale(1)
+    }
+    25%{
+        transform: scale(1.2)
+    }
+    50%{
+        transform: scale(1.4)
+    }
+}
+
+.s3::after
+{
+    content: "KERALA";
+    animation: change 3s ease-in-out 1s infinite normal none running;
+    color:#229f8f;
+}
+ 
+@keyframes change
+{
+    0%{
+         content: "KERALA ";
+    }
+    
+   25%{
+         content: "DELHI ";
+    }
+    50%{
+         content: "MUMBAI ";
+    }
+    100%{
+         content: " DARJEEING";
+    }
+    
+}
